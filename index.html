@@ -4,9 +4,14 @@
   <!-- Службова інформація  -->
   <head>
     <!-- Визначаємо систему кодування символів  -->
-  <link rel="stylesheet" href="styles.css"> 
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link href="style.css" rel="stylesheet" />
     <meta charset="utf-8" />
     <!-- Встановлюємо параметри відображення сторінки на мобільних пристроях  -->
@@ -20,91 +25,108 @@
 
   <!-- Зміст (основна частина документу)  -->
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="">LIFESTYLE</a></li>
-          <li><a href="">PHOTODIARY</a></li>
-          <li><a href="">MUSIC</a></li>
-          <li><a href="">TRAVEL</a></li>
+    <header class="header">
+      <nav class="header-navigation">
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="header-link" href="">LIFESTYLE</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="">PHOTODIARY</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="">MUSIC</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="">TRAVEL</a>
+          </li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section>
-        <article>
-          <img src="1 1.png" alt=" Man at the Concert" />
-          <p>LIFESTYLE</p>
-          <h3>More than just a music festival</h3>
-          <p>
+    <main class="main">
+      <section class="hero">
+        <article class="photoblog">
+          <img class="photoblog-img" src="1 1.png" alt=" Man at the Concert" />
+          <p class="photoblog-subtitle">LIFESTYLE</p>
+          <h3 class="photoblog-title">More than just a music festival</h3>
+          <p class="class="photoblog-description"">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
             dolorem ea harum excepturi consequatur, nihil voluptates cum
             provident neque saepe!
           </p>
         </article>
-        <article>
+        <article class="photoblog">
           <img
+            class="photoblog-img"
             src="1 2.png"
             alt="Nice looking woman standing next to the lake"
           />
-          <p>LIFESTYLE</p>
-          <h3>Life tastes better with coffee</h3>
-          <p>
+          <p class="photoblog-subtitle" >LIFESTYLE</p>
+          <h3 class="photoblog-title">Life tastes better with coffee</h3>
+          <p class="photoblog-description">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
             dolorem ea harum excepturi consequatur, nihil voluptates cum
             provident neque saepe!
           </p>
         </article>
-        <article>
-          <img src="2 1.png" alt="Hot coffee at cozy bed" />
-          <p>LIFESTYLE</p>
-          <h3>American dream</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
-            dolorem ea harum excepturi consequatur, nihil voluptates cum
-            provident neque saepe!
-          </p>
-        </article>
-        <article>
-          <img src="2 2.png" alt="Cold and Scary Alps Road" />
-          <p>LIFESTYLE</p>
-          <h3 class="title">A day exploring the Alps</h3>
-          <p class="text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
-            dolorem ea harum excepturi consequatur, nihil voluptates cum
-            provident neque saepe!
-          </p>
-        </article>
-        <article>
+        <article class="photoblog">
           <img
-            class="image"
+            class="photoblog-img"
+            src="2 1.png"
+            alt="Hot coffee at cozy bed"
+          />
+          <p class="photoblog-subtitle">LIFESTYLE</p>
+          <h3 class="photoblog-title">American dream</h3>
+          <p class="photoblog-description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
+            dolorem ea harum excepturi consequatur, nihil voluptates cum
+            provident neque saepe!
+          </p>
+        </article>
+        <article class="photoblog">
+          <img
+            class="photoblog-img"
+            src="2 2.png"
+            alt="Cold and Scary Alps Road"
+          />
+          <p class="photoblog-subtitle">LIFESTYLE</p>
+          <h3 class="class="photoblog-title"">A day exploring the Alps</h3>
+          <p class="class="photoblog-description"">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
+            dolorem ea harum excepturi consequatur, nihil voluptates cum
+            provident neque saepe!
+          </p>
+        </article>
+        <article class="photoblog">
+          <img
+            class="photoblog-img"
             src="3 1.png"
             alt="2 Happy woman behind 6the golden gate bridge"
           />
-          <p>LIFESTYLE</p>
-          <h3>Top 10 song for running</h3>
-          <p>
+          <p class="photoblog-subtitle">LIFESTYLE</p>
+          <h3 class="photoblog-title">Top 10 song for running</h3>
+          <p class="photoblog-description">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
             dolorem ea harum excepturi consequatur, nihil voluptates cum
             provident neque saepe!
           </p>
         </article>
-        <article>
-          <img src="4 1.png" alt="Bay standing in the cold forest in clothes" />
-          <p>LIFESTYLE</p>
-          <h3>Cold winter days</h3>
-          <p>
+        <article class="photoblog">
+          <img
+            class="photoblog-img"
+            src="4 1.png"
+            alt="Bay standing in the cold forest in clothes"
+          />
+          <p class="photoblog-subtitle">LIFESTYLE</p>
+          <h3 class="photoblog-title">Cold winter days</h3>
+          <p class="photoblog-description">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
             dolorem ea harum excepturi consequatur, nihil voluptates cum
             provident neque saepe!
           </p>
         </article>
-        <button type="button">Load more</button>
+        <button class="hero-btn" type="button">Load more</button>
       </section>
     </main>
-    <footer>”Підвал” сайту</footer>
-
-    <!-- Підключаємо скрипти  -->
-    <script src="js/main.js"></script>
   </body>
 </html>
